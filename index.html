@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imgs/favicon_black.svg" type="image/svg+xml">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-1">
+            <img src="./imgs/one_logo.png" alt="Oracle Next Education">
+        </div>
+        <div class="logo-2">
+            <img src="./imgs/oracle_logo.png" alt="Oracle + Alura">
+        </div>
+        <div class="logo-3">
+            <img src="./imgs/one_logo_tablet.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="container-user">
+            <textarea name="" id="user-input" cols="30" rows="10" placeholder="Digite seu texto." autofocus></textarea>
+            <p class="warning">Apenas letras minúsculas e sem acento.</p>
+            <div class="btn-group">
+                <button id="criptografar" class="btn">Criptografar</button>
+                <button id="descriptografar" class="btn btn-white">
+                    Descriptografar</button>
+            </div>
+        </div>
+        <div class="container-result">
+            <textarea name="" id="result" cols="30" rows="10" placeholder="Resultado." disabled></textarea>
+            <button id="copiar" class="btn">
+                Copiar
+            </button>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
